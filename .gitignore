@@ -1,11 +1,30 @@
-# Ignora tudo
-*
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
 
-# Permite a pasta src
-!src/
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Permite tudo dentro de src
-!src/**
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# (Opcional) manter o próprio .gitignore versionado
-!.gitignore
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
